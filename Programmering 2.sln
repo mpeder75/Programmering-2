@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - repetition Coll
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - repetition LINQ", "Session 1 - repetition LINQ", "{9062B1DC-241F-410E-96DE-7B8E1565C4AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aflevering 1 - UI", "Aflevering 1 - UI\Aflevering 1 - UI.csproj", "{1DD23D4E-9044-43CD-8DBF-3C93696208E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - UI", "Aflevering 1 - UI\Session 2 - UI.csproj", "{1DD23D4E-9044-43CD-8DBF-3C93696208E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aflevering 1 - BusinessLogic", "Aflevering 1 - BusinessLogic\Aflevering 1 - BusinessLogic.csproj", "{082334AE-C845-4DD8-ADF6-649A07276CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - BusinessLogic", "Aflevering 1 - BusinessLogic\Session 2 - BusinessLogic.csproj", "{082334AE-C845-4DD8-ADF6-649A07276CFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aflevering 1 - Models", "Aflevering 1 - Models\Aflevering 1 - Models.csproj", "{3C423293-5A29-49CE-8FC0-BDDC8EE589B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Models", "Aflevering 1 - Models\Session 2 - Models.csproj", "{3C423293-5A29-49CE-8FC0-BDDC8EE589B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aflevering 1 - DataAccess", "Aflevering 1 - DataAccess\Aflevering 1 - DataAccess.csproj", "{26A4719A-544D-46E6-961F-E76D0BDBCC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - DataAccess", "Aflevering 1 - DataAccess\Session 2 - DataAccess.csproj", "{26A4719A-544D-46E6-961F-E76D0BDBCC23}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 1 - Properties", "Session 1 - Models video 1 - Properties\Session 1 - Models video 1 - Properties.csproj", "{463B63D4-EAD2-4FB2-9851-40F0793A1F88}"
 EndProject
@@ -43,11 +43,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Csv filer - vid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Csv filer - video 6", "Session 1 - Csv filer - video 6\Session 1 - Csv filer - video 6.csproj", "{1FFAA257-06ED-490F-9F36-82E01337BD0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - repetition - LINQ", "Session 1 - repitition - LINQ\Session 1 - repetition - LINQ.csproj", "{2CBF40A2-3281-4BFB-909A-D9412E191316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - LINQ", "Session 1 - repitition - LINQ\Session 1 - repetition - LINQ.csproj", "{2CBF40A2-3281-4BFB-909A-D9412E191316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - repetition - List", "Session 1 - repetition - List\Session 1 - repetition - List.csproj", "{2631ACE0-5235-4E3A-B7B4-34FE5549A655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - List", "Session 1 - repetition - List\Session 1 - repetition - List.csproj", "{2631ACE0-5235-4E3A-B7B4-34FE5549A655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - repetition - Dictonary", "Session 1 - repetition - Dictonary\Session 1 - repetition - Dictonary.csproj", "{4A5D3405-C760-4979-8B57-8C0DCB6CE09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - Dictonary", "Session 1 - repetition - Dictonary\Session 1 - repetition - Dictonary.csproj", "{4A5D3405-C760-4979-8B57-8C0DCB6CE09A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - repetition Models", "Session 2 - repetition Models", "{550F4493-602C-4CDA-9A18-293F74ECED3A}"
 EndProject

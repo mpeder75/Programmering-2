@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aflevering 1 - DataAccess\Aflevering 1 - DataAccess.csproj" />
-    <ProjectReference Include="..\Aflevering 1 - Models\Aflevering 1 - Models.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - DataAccess\Session 2 - DataAccess.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - Models\Session 2 - Models.csproj" />
   </ItemGroup>
 
 </Project>

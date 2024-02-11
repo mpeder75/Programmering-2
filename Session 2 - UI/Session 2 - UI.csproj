@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aflevering 1 - BusinessLogic\Aflevering 1 - BusinessLogic.csproj" />
-    <ProjectReference Include="..\Aflevering 1 - Models\Aflevering 1 - Models.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - BusinessLogic\Session 2 - BusinessLogic.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - Models\Session 2 - Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aflevering 1 - Models\Aflevering 1 - Models.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - Models\Session 2 - Models.csproj" />
     <ProjectReference Include="..\Session 1 - Models video 4 - Models\Session 1 - Models video 4 - Models.csproj" />
   </ItemGroup>
 
