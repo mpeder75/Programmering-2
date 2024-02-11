@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Aflevering_1___BusinessLogic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aflevering 1 - DataAccess\Aflevering 1 - DataAccess.csproj" />
+    <ProjectReference Include="..\Aflevering 1 - Models\Aflevering 1 - Models.csproj" />
+  </ItemGroup>
+
+</Project>
