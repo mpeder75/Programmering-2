@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - repetition Models", "Session 1 - repetition Models", "{6FA8A183-962E-45C8-BD1E-2958397893AA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Afleveringer", "Afleveringer", "{CA5A3CD6-88F0-4839-906C-FEAC5E257E2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aflevering 1", "Aflevering 1", "{BBA46757-4B4D-4CD0-B4BF-3DC048B3A253}"
@@ -31,9 +29,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aflevering 1 - DataAccess",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 1 - Properties", "Session 1 - Models video 1 - Properties\Session 1 - Models video 1 - Properties.csproj", "{463B63D4-EAD2-4FB2-9851-40F0793A1F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 2 - DateTime", "Session 1 - Models video 2 - DateTime\Session 1 - Models video 2 - DateTime.csproj", "{CC9EE62B-E109-4B03-AB21-69E3DB35E388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 2 - DateTime", "Session 1 - Models video 2 - DateTime\Session 1 - Models video 2 - DateTime.csproj", "{CC9EE62B-E109-4B03-AB21-69E3DB35E388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 3 - Arkitektur", "Session 1 - Models video 3 - Arkitektur\Session 1 - Models video 3 - Arkitektur.csproj", "{E50B6C09-A906-4A09-B35E-401C66D20A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 3 - Arkitektur", "Session 1 - Models video 3 - Arkitektur\Session 1 - Models video 3 - Arkitektur.csproj", "{E50B6C09-A906-4A09-B35E-401C66D20A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 4 - UI", "Session 1 - Models video 4 - UI\Session 1 - Models video 4 - UI.csproj", "{A8033FAB-8C0C-49B3-8252-02416C5E307B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 4 - Models", "Session 1 - Models video 4 - Models\Session 1 - Models video 4 - Models.csproj", "{1131C509-7620-47A0-86CA-D711C4D1BD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Models video 1 - Properties", "Session 1 - Models video 1 - Properties", "{4D3C0B85-E051-47BE-975A-4448B01692C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Models video 2 - DateTime", "Session 1 - Models video 2 - DateTime", "{3C7518A7-A4C2-4A37-AF3C-3F4593D8C15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Models video 3 - Arkitektur", "Session 1 - Models video 3 - Arkitektur", "{F02297F5-743A-4F8F-B82E-5825183EE725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Models video 4 - Class library", "Session 1 - Models video 4 - Class library", "{6CB5828C-1213-4968-9195-3D08E0DD125E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 4 - BusinessLogic", "Session 1 - Models video 4 - BusinessLogic\Session 1 - Models video 4 - BusinessLogic.csproj", "{4B822172-8ABB-44BF-AED6-18E871F935E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 4 - DataAccess", "Session 1 - Models video 4 - DataAccess\Session 1 - Models video 4 - DataAccess.csproj", "{B37E232E-4710-4260-A65D-FA7DE7E42478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 4 - WinForm", "Session 1 - Models video 4 - WinForm\Session 1 - Models video 4 - WinForm.csproj", "{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Csv filer - video 6", "Session 1 - Csv filer - video 6", "{F0A696A6-DF44-406E-86AE-29ECA799DE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Csv filer - video 6", "Session 1 - Csv filer - video 6\Session 1 - Csv filer - video 6.csproj", "{1FFAA257-06ED-490F-9F36-82E01337BD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +101,30 @@ Global
 		{E50B6C09-A906-4A09-B35E-401C66D20A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50B6C09-A906-4A09-B35E-401C66D20A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50B6C09-A906-4A09-B35E-401C66D20A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8033FAB-8C0C-49B3-8252-02416C5E307B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8033FAB-8C0C-49B3-8252-02416C5E307B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8033FAB-8C0C-49B3-8252-02416C5E307B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8033FAB-8C0C-49B3-8252-02416C5E307B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1131C509-7620-47A0-86CA-D711C4D1BD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1131C509-7620-47A0-86CA-D711C4D1BD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1131C509-7620-47A0-86CA-D711C4D1BD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1131C509-7620-47A0-86CA-D711C4D1BD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B822172-8ABB-44BF-AED6-18E871F935E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B822172-8ABB-44BF-AED6-18E871F935E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B822172-8ABB-44BF-AED6-18E871F935E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B822172-8ABB-44BF-AED6-18E871F935E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37E232E-4710-4260-A65D-FA7DE7E42478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37E232E-4710-4260-A65D-FA7DE7E42478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37E232E-4710-4260-A65D-FA7DE7E42478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37E232E-4710-4260-A65D-FA7DE7E42478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,9 +139,15 @@ Global
 		{082334AE-C845-4DD8-ADF6-649A07276CFF} = {BBA46757-4B4D-4CD0-B4BF-3DC048B3A253}
 		{3C423293-5A29-49CE-8FC0-BDDC8EE589B9} = {BBA46757-4B4D-4CD0-B4BF-3DC048B3A253}
 		{26A4719A-544D-46E6-961F-E76D0BDBCC23} = {BBA46757-4B4D-4CD0-B4BF-3DC048B3A253}
-		{463B63D4-EAD2-4FB2-9851-40F0793A1F88} = {6FA8A183-962E-45C8-BD1E-2958397893AA}
-		{CC9EE62B-E109-4B03-AB21-69E3DB35E388} = {6FA8A183-962E-45C8-BD1E-2958397893AA}
-		{E50B6C09-A906-4A09-B35E-401C66D20A81} = {6FA8A183-962E-45C8-BD1E-2958397893AA}
+		{463B63D4-EAD2-4FB2-9851-40F0793A1F88} = {4D3C0B85-E051-47BE-975A-4448B01692C5}
+		{CC9EE62B-E109-4B03-AB21-69E3DB35E388} = {3C7518A7-A4C2-4A37-AF3C-3F4593D8C15F}
+		{E50B6C09-A906-4A09-B35E-401C66D20A81} = {F02297F5-743A-4F8F-B82E-5825183EE725}
+		{A8033FAB-8C0C-49B3-8252-02416C5E307B} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
+		{1131C509-7620-47A0-86CA-D711C4D1BD98} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
+		{4B822172-8ABB-44BF-AED6-18E871F935E8} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
+		{B37E232E-4710-4260-A65D-FA7DE7E42478} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
+		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
+		{1FFAA257-06ED-490F-9F36-82E01337BD0C} = {F0A696A6-DF44-406E-86AE-29ECA799DE15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}
