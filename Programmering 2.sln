@@ -31,10 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 4 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Models video 4 - WinForm", "Session 1 - Models video 4 - WinForm\Session 1 - Models video 4 - WinForm.csproj", "{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Csv filer - video 6", "Session 1 - Csv filer - video 6", "{F0A696A6-DF44-406E-86AE-29ECA799DE15}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Csv filer - video 6", "Session 1 - Csv filer - video 6\Session 1 - Csv filer - video 6.csproj", "{1FFAA257-06ED-490F-9F36-82E01337BD0C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - LINQ", "Session 1 - repitition - LINQ\Session 1 - repetition - LINQ.csproj", "{2CBF40A2-3281-4BFB-909A-D9412E191316}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - List", "Session 1 - repetition - List\Session 1 - repetition - List.csproj", "{2631ACE0-5235-4E3A-B7B4-34FE5549A655}"
@@ -43,13 +39,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - repetition - Di
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - Exercises", "Session 2 - Exercises", "{A1D314EC-D2E5-4D8A-BC80-FE14EECF9655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - BL", "Session 2 - BL\Session 2 - BL.csproj", "{E121384E-2157-4B35-AECB-27176A0C8A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - BL", "Session 2 - BL\Session 2 - BL.csproj", "{E121384E-2157-4B35-AECB-27176A0C8A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - DA", "Session 2 - DA\Session 2 - DA.csproj", "{22F3CAA4-F101-4784-9F27-3283779A8F77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - DA", "Session 2 - DA\Session 2 - DA.csproj", "{22F3CAA4-F101-4784-9F27-3283779A8F77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Models", "Session 2 - Models\Session 2 - Models.csproj", "{0F587E11-B0A0-42CE-A83A-953B03F7B5DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Models", "Session 2 - Models\Session 2 - Models.csproj", "{0F587E11-B0A0-42CE-A83A-953B03F7B5DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - UI", "Session 2 - UI\Session 2 - UI.csproj", "{91D75A57-CE30-4770-823B-538D1C4D1BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - UI", "Session 2 - UI\Session 2 - UI.csproj", "{91D75A57-CE30-4770-823B-538D1C4D1BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Models video 6 - Csv filer", "Session 1 - Models video 6 - Csv filer", "{88DE9842-FEBB-4B52-9513-BDB0FB653532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Models video 6 - Csv filer", "Session 1 - Models video 6 - Csv filer\Session 1 - Models video 6 - Csv filer.csproj", "{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,10 +89,6 @@ Global
 		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FFAA257-06ED-490F-9F36-82E01337BD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2CBF40A2-3281-4BFB-909A-D9412E191316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2CBF40A2-3281-4BFB-909A-D9412E191316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBF40A2-3281-4BFB-909A-D9412E191316}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -121,6 +117,10 @@ Global
 		{91D75A57-CE30-4770-823B-538D1C4D1BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91D75A57-CE30-4770-823B-538D1C4D1BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91D75A57-CE30-4770-823B-538D1C4D1BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,7 +134,6 @@ Global
 		{4B822172-8ABB-44BF-AED6-18E871F935E8} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
 		{B37E232E-4710-4260-A65D-FA7DE7E42478} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
 		{9770E776-B23C-43D8-BBA5-1DCD2DA26DAA} = {6CB5828C-1213-4968-9195-3D08E0DD125E}
-		{1FFAA257-06ED-490F-9F36-82E01337BD0C} = {F0A696A6-DF44-406E-86AE-29ECA799DE15}
 		{2CBF40A2-3281-4BFB-909A-D9412E191316} = {9062B1DC-241F-410E-96DE-7B8E1565C4AF}
 		{2631ACE0-5235-4E3A-B7B4-34FE5549A655} = {1CEAB379-854A-4678-BBF3-A119117042E3}
 		{4A5D3405-C760-4979-8B57-8C0DCB6CE09A} = {1CEAB379-854A-4678-BBF3-A119117042E3}
@@ -142,6 +141,7 @@ Global
 		{22F3CAA4-F101-4784-9F27-3283779A8F77} = {A1D314EC-D2E5-4D8A-BC80-FE14EECF9655}
 		{0F587E11-B0A0-42CE-A83A-953B03F7B5DB} = {A1D314EC-D2E5-4D8A-BC80-FE14EECF9655}
 		{91D75A57-CE30-4770-823B-538D1C4D1BF9} = {A1D314EC-D2E5-4D8A-BC80-FE14EECF9655}
+		{772F7E92-F3A0-47EE-8FA6-81D4CD3B09FA} = {88DE9842-FEBB-4B52-9513-BDB0FB653532}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}
