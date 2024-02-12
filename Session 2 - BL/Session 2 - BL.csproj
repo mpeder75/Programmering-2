@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Aflevering_1___DataAccess</RootNamespace>
+    <RootNamespace>Session_2___BL</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aflevering 1 - Models\Session 2 - Models.csproj" />
+    <ProjectReference Include="..\Session 2 - DA\Session 2 - DA.csproj" />
+    <ProjectReference Include="..\Session 2 - Models\Session 2 - Models.csproj" />
   </ItemGroup>
 
 </Project>

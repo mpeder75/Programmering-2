@@ -1,11 +1,10 @@
-﻿using Aflevering_1___DataAccess;
-using Aflevering_1___Models;
+﻿using Session_2___DA;
+using Session_2___Models;
 
-namespace Aflevering_1___BusinessLogic
+namespace Session_2___BL
 {
     public class PersonBL
     {
-
         PersonDA dA;
 
         public PersonBL()
@@ -49,3 +48,7 @@ namespace Aflevering_1___BusinessLogic
 
     }
 }
+
+
+
+

@@ -1,9 +1,8 @@
-﻿using Aflevering_1___BusinessLogic;
-using Aflevering_1___Models;
+﻿using Session_2___BL;
+using Session_2___Models;
 
 
 // instans af BusinessLogic, så vi kan kalde metoder igennem BL til DA
-
 PersonBL bl = new PersonBL();
 
 // person objekt istancieres

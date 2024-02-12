@@ -1,51 +1,51 @@
-﻿namespace Aflevering_1___Models;
-public class Person
+﻿namespace Session_2___Models
 {
-
-    public int Id { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-
-    public DateTime BDate { get; set; }
-
-    // fullprop på calcAge/Age
-    private int age;
-
-    public int Age
+    public class Person
     {
-        get
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        public DateTime BDate { get; set; }
+
+        // fullprop på calcAge/Age
+        private int age;
+
+        public int Age
         {
-            age = CalcAge();
-            return age;
+            get
+            {
+                age = CalcAge();
+                return age;
+            }
+
         }
 
-    }
-
-    int CalcAge()
-    {
-        // dags dato oprettes
-        DateTime dd = DateTime.Now;
-
-        int calcAge = 0;
-
-        // validering
-        if (BDate.Year > 1900)
+        int CalcAge()
         {
-            calcAge = dd.Year - BDate.Year;
+            // dags dato oprettes
+            DateTime dd = DateTime.Now;
 
-            if (BDate.Month > dd.Month)            // Month: hvis man først har fødselsdag i næste mnd
+            int calcAge = 0;
+
+            // validering
+            if (BDate.Year > 1900)
             {
-                calcAge--;                          // reduceres calcAge
-            }
-            else if (BDate.Month == dd.Month)      // Month: hvis man har fødselsdag i samme måned
-            {
-                if (BDate.Day > dd.Day)            // Man man har fødsels senere på måneden
+                calcAge = dd.Year - BDate.Year;
+
+                if (BDate.Month > dd.Month)            // Month: hvis man først har fødselsdag i næste mnd
                 {
-                    calcAge--;                      // reduceres calcAge
+                    calcAge--;                          // reduceres calcAge
+                }
+                else if (BDate.Month == dd.Month)      // Month: hvis man har fødselsdag i samme måned
+                {
+                    if (BDate.Day > dd.Day)            // Man man har fødsels senere på måneden
+                    {
+                        calcAge--;                      // reduceres calcAge
+                    }
                 }
             }
+            return calcAge;
         }
-        return calcAge;
     }
 }
-

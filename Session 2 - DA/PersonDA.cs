@@ -1,6 +1,6 @@
-﻿using Aflevering_1___Models;
+﻿using Session_2___Models;
 
-namespace Aflevering_1___DataAccess
+namespace Session_2___DA
 {
     public class PersonDA
     {
@@ -73,4 +73,4 @@ namespace Aflevering_1___DataAccess
     }
 
 }
-
+}
