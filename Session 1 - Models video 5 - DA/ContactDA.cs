@@ -9,14 +9,12 @@ namespace Session_1___Models_video_5___DA
     {
         string connString;
 
-        private List<Contact> contacts;
-
         public ContactDA()
         {
             connString = ConfigurationManager.ConnectionStrings["home"].ToString();
         }
 
-        //? Create()
+        // Create()
         public bool Create(Contact contact)
         {
             using SqlConnection dbConn = new SqlConnection(connString);
@@ -26,22 +24,30 @@ namespace Session_1___Models_video_5___DA
                 dbConn
                 );
 
-            sqlCommand.Parameters.AddWithValue("@Id", contact.Id);
+            sqlCommand.Parameters.AddWithValue("@Id", FindNextId());
             sqlCommand.Parameters.AddWithValue("@FirstName", contact.FirstName);
             sqlCommand.Parameters.AddWithValue("@LastName", contact.LastName);
-            dbConn.Open();
+            try
+            {
+                dbConn.Open();
+            }
+            catch (Exception)
+            {
+                return false;
+            }
             int res = sqlCommand.ExecuteNonQuery();
             dbConn.Close();
             if (res == 0) return false; return true;
         }
 
-        //? GetAll() - returner alle contacts
+        // GetAll() - returner alle contacts
         public List<Contact> GetAll()
         {
             List<Contact> peopleList = new List<Contact>();
-            string command = "SELECT * FROM dbo.contacts"; 
+            string command = "SELECT * FROM dbo.contacts";
             using SqlConnection dbConn = new SqlConnection(connString);
             SqlCommand sqlCommand = new SqlCommand(command, dbConn);
+            // evt surround with try catch ctrl+k, ctrl+s 
             dbConn.Open();
             using SqlDataReader reader = sqlCommand.ExecuteReader();
             while (reader.Read())
@@ -49,7 +55,7 @@ namespace Session_1___Models_video_5___DA
                 Contact contact = new Contact();
                 contact.Id = (int)reader["ID"];
                 contact.FirstName = (string)reader["FirstName"];
-                contact.LastName = (string)reader["LastName"]; 
+                contact.LastName = (string)reader["LastName"];
                 peopleList.Add(contact);
             }
 
@@ -57,7 +63,7 @@ namespace Session_1___Models_video_5___DA
             return peopleList;
         }
 
-        //?GetOne - returner EN element
+        // GetOne - returner EN element
         public Contact GetOne(int id)
         {
             Contact contact = new Contact();
@@ -68,7 +74,7 @@ namespace Session_1___Models_video_5___DA
             SqlCommand sqlCommand = new SqlCommand(@command, dbConn);
 
             sqlCommand.Parameters.AddWithValue("@ID", id);
-
+            // evt surround with try catch ctrl+k, ctrl+s 
             dbConn.Open();
             using SqlDataReader reader = sqlCommand.ExecuteReader();
             while (reader.Read())
@@ -82,7 +88,7 @@ namespace Session_1___Models_video_5___DA
         }
 
 
-        //? Update()     
+        // Update()     
         public bool Update(Contact contact)
         {
             using SqlConnection dbConn = new SqlConnection(connString);
@@ -91,19 +97,21 @@ namespace Session_1___Models_video_5___DA
             sqlCommand.Parameters.AddWithValue("@ID", contact.Id);
             sqlCommand.Parameters.AddWithValue("@FirstName", contact.FirstName);
             sqlCommand.Parameters.AddWithValue("@LastName", contact.LastName);
+            // evt surround with try catch ctrl+k, ctrl+s 
             dbConn.Open();
             int rowAffected = sqlCommand.ExecuteNonQuery();
             dbConn.Close();
             return rowAffected > 0;
         }
 
-        //? Delete()
+        // Delete()
         public bool Delete(int id)
         {
             string command = "DELETE FROM dbo.contacts WHERE id = @ID";
             using SqlConnection dbConn = new SqlConnection(connString);
             SqlCommand sqlCommand = new SqlCommand(command, dbConn);
             sqlCommand.Parameters.AddWithValue("@ID", id);
+            // evt surround with try catch ctrl+k, ctrl+s 
             dbConn.Open();
             int rowsAffected = sqlCommand.ExecuteNonQuery();
             dbConn.Close();
@@ -111,20 +119,23 @@ namespace Session_1___Models_video_5___DA
 
         }
 
-        //? FindNextId()
+        // FindNextId()
         int FindNextId()
         {
             int nextId = 0;
-            foreach (var element in contacts)
+            string command = "SELECT MAX(Id) FROM dbo.contacts";
+            using SqlConnection dbConn = new SqlConnection(connString);
+            SqlCommand sqlCommand = new SqlCommand(command, dbConn);
+            dbConn.Open();
+            object result = sqlCommand.ExecuteScalar();
+            dbConn.Close();
+
+            if (result != DBNull.Value)
             {
-                if (element.Id > nextId)
-                {
-                    nextId = element.Id;
-                }
+                nextId = Convert.ToInt32(result);
             }
+
             return nextId + 1;
         }
-
     }
-
 }

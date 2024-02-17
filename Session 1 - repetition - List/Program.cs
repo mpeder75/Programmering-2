@@ -9,9 +9,6 @@ List<Car> myList = new List<Car>()
     new Car { Id = "4", Make = "Golf", Model = "GTI"}
 };
 
-
-
-
 // List der indeholder objekter af datatypen Car
 List<Car> carList = new List<Car>();
 
@@ -25,6 +22,7 @@ foreach (Car car in carList)
 {
     Console.WriteLine($"Car make: {car.Make}, Car model: {car.Model}");
 }
+
 
 
 

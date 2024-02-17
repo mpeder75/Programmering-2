@@ -5,6 +5,7 @@
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        /*
         public DateTime BDate { get; set; }
 
         private int age;
@@ -47,5 +48,6 @@
         {
             return $"Contact has id: {Id}, First name is: {FirstName}, Last name is: {LastName}";
         }
+        */
     }
 }
