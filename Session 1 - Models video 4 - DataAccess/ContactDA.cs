@@ -26,7 +26,7 @@ namespace Session_1___Models_video_4___DataAccess
             return contacts;
         }
 
-        //?GetOne - returner EN element
+        //?GetOne - returner ET objekt
         public Contact GetOne(int id)
         {
             foreach (var contact in contacts)
