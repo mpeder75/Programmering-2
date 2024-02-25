@@ -29,25 +29,40 @@
         private void InitializeComponent()
         {
             dgvPerson = new DataGridView();
+            btnCreatePerson = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvPerson).BeginInit();
             SuspendLayout();
             // 
             // dgvPerson
             // 
+            dgvPerson.AllowUserToOrderColumns = true;
             dgvPerson.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPerson.Location = new Point(33, 31);
             dgvPerson.Name = "dgvPerson";
+            dgvPerson.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dgvPerson.RowTemplate.Height = 25;
-            dgvPerson.Size = new Size(740, 200);
-            dgvPerson.TabIndex = 0;            
+            dgvPerson.Size = new Size(544, 195);
+            dgvPerson.TabIndex = 0;
+            dgvPerson.CellContentClick += dgvPerson_CellContentClick;
             // 
-            // StartPage
+            // btnCreatePerson
+            // 
+            btnCreatePerson.Location = new Point(33, 270);
+            btnCreatePerson.Name = "btnCreatePerson";
+            btnCreatePerson.Size = new Size(111, 47);
+            btnCreatePerson.TabIndex = 1;
+            btnCreatePerson.Text = "Create Person";
+            btnCreatePerson.UseVisualStyleBackColor = true;
+            btnCreatePerson.Click += btnCreatePerson_Click;
+            // 
+            // OverviewPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCreatePerson);
             Controls.Add(dgvPerson);
-            Name = "StartPage";
+            Name = "OverviewPage";
             Text = "StartPage";
             ((System.ComponentModel.ISupportInitialize)dgvPerson).EndInit();
             ResumeLayout(false);
@@ -56,5 +71,6 @@
         #endregion
 
         private DataGridView dgvPerson;
+        private Button btnCreatePerson;
     }
 }

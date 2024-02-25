@@ -13,44 +13,50 @@ namespace Session_4___BL
             db = new PersonDA();
         }
 
-        // CRUD Create
-        public bool Create(Person person)
+        // CRUD CreateAsync
+        public async Task<bool> CreateAsync(Person person)
         {
-            db.Create(person);
-            return true;
+            if (person != null)
+            {
+                return await db.CreateAsync(person);
+            }
+            return false;
         }
 
 
         // CRUD GetALL
-        public List<Person> GetAll()
+        public async Task<List<Person>> GetAllAsync()
         {
-            return db.GetAll();
+            return await db.GetAllAsync();
         }
 
-        // CRUD GetOne
-        public Person GetOne(int id)
+        // CRUD GetOneAsync
+        public async Task<Person> GetOneAsync(int id)
         {
-            if (db != null && id < 0)
+            if (id >= 0)
             {
-                return db.GetOne(id);
+                return await db.GetOneAsync(id);
             }
             return new Person();
         }
 
-        // CRUD Update
-        public bool Update(Person person)
+        // CRUD UpdateAsync
+        public async Task<bool> UpdateAsync(Person person)
         {
-            db.Update(person);
-            return true;
+            if (person != null)
+            {
+                return await db.UpdateAsync(person);
+            }
+            return false;
+           
         }
 
-        // CRUD Delete
-        public bool Delete(int id)
+        // CRUD DeleteAsync
+        public async Task<bool> DeleteAsync(int id)
         {
             if(id > 0 && id < int.MaxValue)
             {                   
-                db.Delete(id);
-                return true;
+                return await db.DeleteAsync(id);               
             }
             return false;
         }

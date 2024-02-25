@@ -9,26 +9,33 @@ namespace Session_4___DA
         public PersonDA()
         {
             persons = new List<Person>();
+            AddData();
         }
 
-        // CRUD Create
-        public bool Create(Person person)
+        // CRUD CreateAsync
+        public async Task<bool> CreateAsync(Person person)
         {
+
+            await Task.Delay(500);
+
             person.Id = FindNextId();
 
             persons.Add(person);
             return true;
         }
 
-        // CRUD GetAll
-        public List<Person> GetAll()
+        // CRUD GetAllAsync
+        public async Task<List<Person>> GetAllAsync()
         {
+            await Task.Delay(500);
             return persons;
         }
 
-        // CRUD GetOne
-        public Person GetOne(int id)
+        // CRUD GetOneAsync
+        public async Task<Person> GetOneAsync(int id)
         {
+            await Task.Delay(500);
+
             foreach (var person in persons)
             {
                 if (person.Id == id)
@@ -39,39 +46,39 @@ namespace Session_4___DA
             return new Person();
         }
 
-        // CRUD Update
-        public bool Update(Person person)
+        // CRUD UpdateAsync
+        public async Task<bool> UpdateAsync(Person updatedPerson)
         {
-            foreach (var item in persons)
+            await Task.Delay(500); // Simulate an asynchronous operation (e.g., updating data in a database)
+
+            foreach (var person in persons)
             {
-                if (item.Id == person.Id)
+                if (person.Id == updatedPerson.Id)
                 {
-                    person.Id = item.Id;
-                    person.FirstName = item.FirstName;
-                    person.LastName = item.LastName;
+                    // Update the person's properties
+                    person.FirstName = updatedPerson.FirstName;
+                    person.LastName = updatedPerson.LastName;
+                    return true; // Return true once the update is successful
                 }
-                return true;
             }
-            return false;
+            return false; // Return false if the person to update is not found
         }
 
-        // CRUD Delete
-        public bool Delete(int id)
+        // CRUD DeleteAsync
+        public async Task<bool> DeleteAsync(int id)
         {
+            await Task.Delay(500); // Simulate an asynchronous operation (e.g., deleting data from a database)
+
             foreach (var person in persons)
             {
                 if (person.Id == id)
                 {
                     persons.Remove(person);
+                    return true; // Return true once the person is deleted
                 }
-                return true;
             }
-            return false;
+            return false; // Return false if the person to delete is not found
         }
-
-
-
-
 
 
         int FindNextId()
