@@ -71,27 +71,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3 - Threads og Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 1. Threads InterLocked og LOCK", "Session 3 - InterLocked og LOCK\Session 3 - 1. Threads InterLocked og LOCK.csproj", "{9EF7A424-4102-490A-9B05-779580A59110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - 2. Task", "Session 3 - Task\Session 3 - 2. Task.csproj", "{551772B1-2579-4C85-BB53-65ED432AF7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 2. Task", "Session 3 - Task\Session 3 - 2. Task.csproj", "{551772B1-2579-4C85-BB53-65ED432AF7FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - 3. Task med Factory", "Sessoin 3 - Task med Factory\Session 3 - 3. Task med Factory.csproj", "{1A12073A-0C1F-4F7E-8C58-9E938EF2ECEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 3. Task med Factory", "Sessoin 3 - Task med Factory\Session 3 - 3. Task med Factory.csproj", "{1A12073A-0C1F-4F7E-8C58-9E938EF2ECEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - 4. Task med Wait()", "Session 3 - Task.Wait()\Session 3 - 4. Task med Wait().csproj", "{346EBB86-E036-4BFF-95BC-6BED982A18F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 4. Task med Wait()", "Session 3 - Task.Wait()\Session 3 - 4. Task med Wait().csproj", "{346EBB86-E036-4BFF-95BC-6BED982A18F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - 5. Task med Return og ContinueWith", "Session 3 - 5. Task med Return\Session 3 - 5. Task med Return og ContinueWith.csproj", "{174F1ACF-29A5-4F78-A8AB-8C9801455FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 5. Task med Return og ContinueWith", "Session 3 - 5. Task med Return\Session 3 - 5. Task med Return og ContinueWith.csproj", "{174F1ACF-29A5-4F78-A8AB-8C9801455FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - 6. Metode der er Async", "Session 3 - 6. Metode der er Async\Session 3 - 6. Metode der er Async.csproj", "{FB1E5F8A-DA64-43F4-A39A-BC3F8AD6B6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - 6. Metode der er Async", "Session 3 - 6. Metode der er Async\Session 3 - 6. Metode der er Async.csproj", "{FB1E5F8A-DA64-43F4-A39A-BC3F8AD6B6F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - TaskOpgave", "Session 3 - Aflevering - TaskOpgave\Session 3 - Aflevering - TaskOpgave.csproj", "{B63E98F3-4A83-4573-8110-6C2D1E4FDBE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - TaskOpgave", "Session 3 - Aflevering - TaskOpgave\Session 3 - Aflevering - TaskOpgave.csproj", "{B63E98F3-4A83-4573-8110-6C2D1E4FDBE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - NyApp", "Session 3 - Aflevering - NyApp\Session 3 - Aflevering - NyApp.csproj", "{43772552-BB39-43E8-A3DC-B2C5264953D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - NyApp", "Session 3 - Aflevering - NyApp\Session 3 - Aflevering - NyApp.csproj", "{43772552-BB39-43E8-A3DC-B2C5264953D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - Forms - UI", "Session 3 - Aflevering - Forms - UI\Session 3 - Aflevering - Forms - UI.csproj", "{E7C6D5B1-92B5-4D8C-8F15-6DDDE1A49500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - Forms - UI", "Session 3 - Aflevering - Forms - UI\Session 3 - Aflevering - Forms - UI.csproj", "{E7C6D5B1-92B5-4D8C-8F15-6DDDE1A49500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - Forms - DA", "Session 3 - Aflevering - Forms - DA\Session 3 - Aflevering - Forms - DA.csproj", "{5148A859-80D9-44B9-8DF2-186D6ABA74FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - Forms - DA", "Session 3 - Aflevering - Forms - DA\Session 3 - Aflevering - Forms - DA.csproj", "{5148A859-80D9-44B9-8DF2-186D6ABA74FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - Forms - BL", "Session 3 - Aflevering - Forms - BL\Session 3 - Aflevering - Forms - BL.csproj", "{BE6A7711-6F56-452E-BEC6-4992C85DE2C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - Forms - BL", "Session 3 - Aflevering - Forms - BL\Session 3 - Aflevering - Forms - BL.csproj", "{BE6A7711-6F56-452E-BEC6-4992C85DE2C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Aflevering - Forms - Models", "Session 3 - Aflevering - Forms - Models\Session 3 - Aflevering - Forms - Models.csproj", "{244343B1-3EB4-417B-A73D-14CE72A4FA3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Aflevering - Forms - Models", "Session 3 - Aflevering - Forms - Models\Session 3 - Aflevering - Forms - Models.csproj", "{244343B1-3EB4-417B-A73D-14CE72A4FA3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4 - Async await", "Session 4 - Async await", "{B9BE49B4-6B03-4363-8641-50E5B0A61828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - BL", "Session 4 - BL\Session 4 - BL.csproj", "{B123642D-F735-4423-9E09-83411597D3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - DA", "Session 4 - DA\Session 4 - DA.csproj", "{09ACC7D0-4079-4554-8050-D59E818D2FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - Models", "Session 4 - Models\Session 4 - Models.csproj", "{9F6EC4A7-DD4C-43D7-981C-090309BD15E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - UI", "Session 4 - UI\Session 4 - UI.csproj", "{DFB6787A-B215-43B0-9636-A37E66C3BF6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +245,22 @@ Global
 		{244343B1-3EB4-417B-A73D-14CE72A4FA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{244343B1-3EB4-417B-A73D-14CE72A4FA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{244343B1-3EB4-417B-A73D-14CE72A4FA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B123642D-F735-4423-9E09-83411597D3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B123642D-F735-4423-9E09-83411597D3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B123642D-F735-4423-9E09-83411597D3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B123642D-F735-4423-9E09-83411597D3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09ACC7D0-4079-4554-8050-D59E818D2FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09ACC7D0-4079-4554-8050-D59E818D2FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09ACC7D0-4079-4554-8050-D59E818D2FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09ACC7D0-4079-4554-8050-D59E818D2FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6EC4A7-DD4C-43D7-981C-090309BD15E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6EC4A7-DD4C-43D7-981C-090309BD15E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6EC4A7-DD4C-43D7-981C-090309BD15E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6EC4A7-DD4C-43D7-981C-090309BD15E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB6787A-B215-43B0-9636-A37E66C3BF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB6787A-B215-43B0-9636-A37E66C3BF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB6787A-B215-43B0-9636-A37E66C3BF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB6787A-B215-43B0-9636-A37E66C3BF6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +300,10 @@ Global
 		{5148A859-80D9-44B9-8DF2-186D6ABA74FA} = {C67EBDAE-2393-4C21-9F45-29E367757E66}
 		{BE6A7711-6F56-452E-BEC6-4992C85DE2C9} = {C67EBDAE-2393-4C21-9F45-29E367757E66}
 		{244343B1-3EB4-417B-A73D-14CE72A4FA3E} = {C67EBDAE-2393-4C21-9F45-29E367757E66}
+		{B123642D-F735-4423-9E09-83411597D3F5} = {B9BE49B4-6B03-4363-8641-50E5B0A61828}
+		{09ACC7D0-4079-4554-8050-D59E818D2FB4} = {B9BE49B4-6B03-4363-8641-50E5B0A61828}
+		{9F6EC4A7-DD4C-43D7-981C-090309BD15E4} = {B9BE49B4-6B03-4363-8641-50E5B0A61828}
+		{DFB6787A-B215-43B0-9636-A37E66C3BF6A} = {B9BE49B4-6B03-4363-8641-50E5B0A61828}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}
