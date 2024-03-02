@@ -28,4 +28,9 @@
     <Folder Include="Graphics\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Session 5 - AsyncSql - BL\Session 5 - AsyncSql - BL.csproj" />
+    <ProjectReference Include="..\Session 5 - AsyncSql - Models\Session 5 - AsyncSql - Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -15,13 +15,10 @@ namespace Session_5___AsyncSql___UI.Views
         public FormPerson()
         {
             InitializeComponent();
-
-
-            /*
-            HVIS man vil lave styling i code
-            panelPerson.BackColor = Color.FromArgb(160, 113, 255);
-            btnCreatPerson.BackColor = Color.FromArgb(160, 113, 255);
-            */
         }
+
+        
+
+        
     }
 }

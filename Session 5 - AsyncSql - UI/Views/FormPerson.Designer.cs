@@ -28,42 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPerson));
-            panelPerson = new Panel();
-            label1 = new Label();
             panel1 = new Panel();
-            dgvPersons = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
-            Column6 = new DataGridViewTextBoxColumn();
-            Column7 = new DataGridViewTextBoxColumn();
-            Column8 = new DataGridViewTextBoxColumn();
-            Column9 = new DataGridViewTextBoxColumn();
-            Column10 = new DataGridViewButtonColumn();
-            Column11 = new DataGridViewButtonColumn();
-            btnCreatPerson = new Button();
-            txtSearch = new TextBox();
-            pictureBox1 = new PictureBox();
-            panelPerson.SuspendLayout();
+            label1 = new Label();
+            panel2 = new Panel();
+            btnSavePerson = new Button();
+            txtPhone = new TextBox();
+            label8 = new Label();
+            txtEmail = new TextBox();
+            label7 = new Label();
+            txtPostalCode = new TextBox();
+            label6 = new Label();
+            txtCity = new TextBox();
+            label5 = new Label();
+            txtAddress = new TextBox();
+            label4 = new Label();
+            txtLastName = new TextBox();
+            label3 = new Label();
+            txtFirstName = new TextBox();
+            label2 = new Label();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvPersons).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // panelPerson
+            // panel1
             // 
-            panelPerson.BackColor = Color.FromArgb(160, 113, 255);
-            panelPerson.Controls.Add(label1);
-            panelPerson.Dock = DockStyle.Top;
-            panelPerson.Location = new Point(0, 0);
-            panelPerson.Name = "panelPerson";
-            panelPerson.Size = new Size(967, 142);
-            panelPerson.TabIndex = 0;
+            panel1.BackColor = Color.FromArgb(160, 113, 255);
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(537, 140);
+            panel1.TabIndex = 0;
             // 
             // label1
             // 
@@ -72,207 +67,219 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(31, 55);
             label1.Name = "label1";
-            label1.Size = new Size(88, 21);
+            label1.Size = new Size(89, 21);
             label1.TabIndex = 0;
-            label1.Text = "Person Info";
+            label1.Text = "Add Person";
             // 
-            // panel1
+            // panel2
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.White;
-            panel1.Controls.Add(dgvPersons);
-            panel1.Controls.Add(btnCreatPerson);
-            panel1.Controls.Add(txtSearch);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(31, 184);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(897, 363);
-            panel1.TabIndex = 0;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(btnSavePerson);
+            panel2.Controls.Add(txtPhone);
+            panel2.Controls.Add(label8);
+            panel2.Controls.Add(txtEmail);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(txtPostalCode);
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(txtCity);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(txtAddress);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(txtLastName);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(txtFirstName);
+            panel2.Controls.Add(label2);
+            panel2.Location = new Point(57, 184);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(423, 573);
+            panel2.TabIndex = 0;
             // 
-            // dgvPersons
+            // btnSavePerson
             // 
-            dgvPersons.AllowUserToAddRows = false;
-            dgvPersons.AllowUserToDeleteRows = false;
-            dgvPersons.AllowUserToResizeColumns = false;
-            dgvPersons.AllowUserToResizeRows = false;
-            dgvPersons.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dgvPersons.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvPersons.BackgroundColor = Color.White;
-            dgvPersons.BorderStyle = BorderStyle.None;
-            dgvPersons.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPersons.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7, Column8, Column9, Column10, Column11 });
-            dgvPersons.GridColor = Color.White;
-            dgvPersons.Location = new Point(26, 77);
-            dgvPersons.MultiSelect = false;
-            dgvPersons.Name = "dgvPersons";
-            dgvPersons.ReadOnly = true;
-            dgvPersons.RowHeadersVisible = false;
-            dgvPersons.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dgvPersons.RowTemplate.Height = 25;
-            dgvPersons.ShowEditingIcon = false;
-            dgvPersons.Size = new Size(845, 242);
-            dgvPersons.TabIndex = 0;
+            btnSavePerson.BackColor = Color.FromArgb(160, 113, 255);
+            btnSavePerson.FlatAppearance.BorderSize = 0;
+            btnSavePerson.FlatStyle = FlatStyle.Flat;
+            btnSavePerson.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSavePerson.ForeColor = Color.White;
+            btnSavePerson.Location = new Point(76, 513);
+            btnSavePerson.Name = "btnSavePerson";
+            btnSavePerson.Size = new Size(86, 29);
+            btnSavePerson.TabIndex = 8;
+            btnSavePerson.Text = "Save";
+            btnSavePerson.UseVisualStyleBackColor = false;
             // 
-            // Column1
+            // txtPhone
             // 
-            Column1.HeaderText = "#";
-            Column1.Name = "Column1";
-            Column1.ReadOnly = true;
+            txtPhone.BorderStyle = BorderStyle.FixedSingle;
+            txtPhone.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPhone.Location = new Point(76, 464);
+            txtPhone.Name = "txtPhone";
+            txtPhone.Size = new Size(261, 23);
+            txtPhone.TabIndex = 7;
             // 
-            // Column2
+            // label8
             // 
-            Column2.HeaderText = "Id";
-            Column2.Name = "Column2";
-            Column2.ReadOnly = true;
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(76, 446);
+            label8.Name = "label8";
+            label8.Size = new Size(44, 15);
+            label8.TabIndex = 0;
+            label8.Text = "Phone:";
             // 
-            // Column3
+            // txtEmail
             // 
-            Column3.HeaderText = "Fornavn";
-            Column3.Name = "Column3";
-            Column3.ReadOnly = true;
+            txtEmail.BorderStyle = BorderStyle.FixedSingle;
+            txtEmail.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEmail.Location = new Point(76, 393);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(261, 23);
+            txtEmail.TabIndex = 6;
             // 
-            // Column4
+            // label7
             // 
-            Column4.HeaderText = "Efternavn";
-            Column4.Name = "Column4";
-            Column4.ReadOnly = true;
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(76, 375);
+            label7.Name = "label7";
+            label7.Size = new Size(39, 15);
+            label7.TabIndex = 0;
+            label7.Text = "Email:";
             // 
-            // Column5
+            // txtPostalCode
             // 
-            Column5.HeaderText = "Addresse";
-            Column5.Name = "Column5";
-            Column5.ReadOnly = true;
+            txtPostalCode.BorderStyle = BorderStyle.FixedSingle;
+            txtPostalCode.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPostalCode.Location = new Point(76, 329);
+            txtPostalCode.Name = "txtPostalCode";
+            txtPostalCode.Size = new Size(261, 23);
+            txtPostalCode.TabIndex = 5;
             // 
-            // Column6
+            // label6
             // 
-            Column6.HeaderText = "City";
-            Column6.Name = "Column6";
-            Column6.ReadOnly = true;
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(76, 311);
+            label6.Name = "label6";
+            label6.Size = new Size(68, 15);
+            label6.TabIndex = 0;
+            label6.Text = "Postalcode:";
             // 
-            // Column7
+            // txtCity
             // 
-            Column7.HeaderText = "Postnr";
-            Column7.Name = "Column7";
-            Column7.ReadOnly = true;
+            txtCity.BorderStyle = BorderStyle.FixedSingle;
+            txtCity.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCity.Location = new Point(76, 256);
+            txtCity.Name = "txtCity";
+            txtCity.Size = new Size(261, 23);
+            txtCity.TabIndex = 4;
             // 
-            // Column8
+            // label5
             // 
-            Column8.HeaderText = "Email";
-            Column8.Name = "Column8";
-            Column8.ReadOnly = true;
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(76, 238);
+            label5.Name = "label5";
+            label5.Size = new Size(31, 15);
+            label5.TabIndex = 0;
+            label5.Text = "City:";
             // 
-            // Column9
+            // txtAddress
             // 
-            Column9.HeaderText = "Telefon";
-            Column9.Name = "Column9";
-            Column9.ReadOnly = true;
+            txtAddress.BorderStyle = BorderStyle.FixedSingle;
+            txtAddress.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtAddress.Location = new Point(76, 184);
+            txtAddress.Name = "txtAddress";
+            txtAddress.Size = new Size(261, 23);
+            txtAddress.TabIndex = 3;
             // 
-            // Column10
+            // label4
             // 
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(219, 88, 96);
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(219, 88, 96);
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
-            Column10.DefaultCellStyle = dataGridViewCellStyle1;
-            Column10.FlatStyle = FlatStyle.Flat;
-            Column10.HeaderText = "";
-            Column10.Name = "Column10";
-            Column10.ReadOnly = true;
-            Column10.Text = "Update";
-            Column10.UseColumnTextForButtonValue = true;
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(76, 166);
+            label4.Name = "label4";
+            label4.Size = new Size(52, 15);
+            label4.TabIndex = 0;
+            label4.Text = "Address:";
             // 
-            // Column11
+            // txtLastName
             // 
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(160, 113, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(160, 113, 255);
-            dataGridViewCellStyle2.SelectionForeColor = Color.White;
-            Column11.DefaultCellStyle = dataGridViewCellStyle2;
-            Column11.FlatStyle = FlatStyle.Flat;
-            Column11.HeaderText = "";
-            Column11.Name = "Column11";
-            Column11.ReadOnly = true;
-            Column11.Text = "Delete";
-            Column11.UseColumnTextForButtonValue = true;
+            txtLastName.BorderStyle = BorderStyle.FixedSingle;
+            txtLastName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtLastName.Location = new Point(76, 114);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(261, 23);
+            txtLastName.TabIndex = 2;
             // 
-            // btnCreatPerson
+            // label3
             // 
-            btnCreatPerson.BackColor = Color.FromArgb(160, 113, 255);
-            btnCreatPerson.FlatAppearance.BorderSize = 0;
-            btnCreatPerson.FlatStyle = FlatStyle.Flat;
-            btnCreatPerson.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCreatPerson.ForeColor = Color.White;
-            btnCreatPerson.Location = new Point(26, 22);
-            btnCreatPerson.Name = "btnCreatPerson";
-            btnCreatPerson.Size = new Size(88, 34);
-            btnCreatPerson.TabIndex = 0;
-            btnCreatPerson.Text = "Create Person";
-            btnCreatPerson.UseVisualStyleBackColor = false;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(76, 96);
+            label3.Name = "label3";
+            label3.Size = new Size(61, 15);
+            label3.TabIndex = 0;
+            label3.Text = "Lastname:";
             // 
-            // txtSearch
+            // txtFirstName
             // 
-            txtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txtSearch.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSearch.Location = new Point(642, 27);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(197, 29);
-            txtSearch.TabIndex = 1;
+            txtFirstName.BorderStyle = BorderStyle.FixedSingle;
+            txtFirstName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtFirstName.Location = new Point(76, 45);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(261, 23);
+            txtFirstName.TabIndex = 1;
             // 
-            // pictureBox1
+            // label2
             // 
-            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pictureBox1.BackColor = SystemColors.Control;
-            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(839, 27);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(32, 29);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(76, 27);
+            label2.Name = "label2";
+            label2.Size = new Size(62, 15);
+            label2.TabIndex = 0;
+            label2.Text = "Firstname:";
             // 
             // FormPerson
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(967, 582);
+            ClientSize = new Size(537, 790);
+            Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(panelPerson);
+            Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Margin = new Padding(4, 6, 4, 6);
             Name = "FormPerson";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Person Info";
-            panelPerson.ResumeLayout(false);
-            panelPerson.PerformLayout();
+            Text = "Person";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvPersons).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panelPerson;
-        private Label label1;
         private Panel panel1;
-        private Button btnCreatPerson;
-        private TextBox txtSearch;
-        private PictureBox pictureBox1;
-        private DataGridView dgvPersons;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
-        private DataGridViewTextBoxColumn Column5;
-        private DataGridViewTextBoxColumn Column6;
-        private DataGridViewTextBoxColumn Column7;
-        private DataGridViewTextBoxColumn Column8;
-        private DataGridViewTextBoxColumn Column9;
-        private DataGridViewButtonColumn Column10;
-        private DataGridViewButtonColumn Column11;
+        private Label label1;
+        private Panel panel2;
+        private TextBox txtFirstName;
+        private Label label2;
+        private TextBox txtEmail;
+        private Label label7;
+        private TextBox txtPostalCode;
+        private Label label6;
+        private TextBox txtCity;
+        private Label label5;
+        private TextBox txtAddress;
+        private Label label4;
+        private TextBox txtLastName;
+        private Label label3;
+        private TextBox txtPhone;
+        private Label label8;
+        private Button btnSavePerson;
     }
 }
