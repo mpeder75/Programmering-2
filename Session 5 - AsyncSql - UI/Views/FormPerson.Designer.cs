@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
+            label0 = new Label();
             panel2 = new Panel();
             btnSavePerson = new Button();
             txtPhone = new TextBox();
@@ -53,23 +53,23 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(160, 113, 255);
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label0);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(537, 140);
             panel1.TabIndex = 0;
             // 
-            // label1
+            // label0
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(31, 55);
-            label1.Name = "label1";
-            label1.Size = new Size(89, 21);
-            label1.TabIndex = 0;
-            label1.Text = "Add Person";
+            label0.AutoSize = true;
+            label0.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label0.ForeColor = Color.White;
+            label0.Location = new Point(31, 55);
+            label0.Name = "label0";
+            label0.Size = new Size(89, 21);
+            label0.TabIndex = 0;
+            label0.Text = "Add Person";
             // 
             // panel2
             // 
@@ -91,7 +91,7 @@
             panel2.Controls.Add(label2);
             panel2.Location = new Point(57, 184);
             panel2.Name = "panel2";
-            panel2.Size = new Size(423, 573);
+            panel2.Size = new Size(423, 592);
             panel2.TabIndex = 0;
             // 
             // btnSavePerson
@@ -101,18 +101,19 @@
             btnSavePerson.FlatStyle = FlatStyle.Flat;
             btnSavePerson.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnSavePerson.ForeColor = Color.White;
-            btnSavePerson.Location = new Point(76, 513);
+            btnSavePerson.Location = new Point(83, 526);
             btnSavePerson.Name = "btnSavePerson";
             btnSavePerson.Size = new Size(86, 29);
             btnSavePerson.TabIndex = 8;
             btnSavePerson.Text = "Save";
             btnSavePerson.UseVisualStyleBackColor = false;
+            btnSavePerson.Click += btnSavePersonClick;
             // 
             // txtPhone
             // 
             txtPhone.BorderStyle = BorderStyle.FixedSingle;
             txtPhone.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPhone.Location = new Point(76, 464);
+            txtPhone.Location = new Point(83, 477);
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(261, 23);
             txtPhone.TabIndex = 7;
@@ -121,7 +122,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(76, 446);
+            label8.Location = new Point(83, 459);
             label8.Name = "label8";
             label8.Size = new Size(44, 15);
             label8.TabIndex = 0;
@@ -131,7 +132,7 @@
             // 
             txtEmail.BorderStyle = BorderStyle.FixedSingle;
             txtEmail.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtEmail.Location = new Point(76, 393);
+            txtEmail.Location = new Point(83, 406);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(261, 23);
             txtEmail.TabIndex = 6;
@@ -140,7 +141,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(76, 375);
+            label7.Location = new Point(83, 388);
             label7.Name = "label7";
             label7.Size = new Size(39, 15);
             label7.TabIndex = 0;
@@ -150,7 +151,7 @@
             // 
             txtPostalCode.BorderStyle = BorderStyle.FixedSingle;
             txtPostalCode.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPostalCode.Location = new Point(76, 329);
+            txtPostalCode.Location = new Point(83, 342);
             txtPostalCode.Name = "txtPostalCode";
             txtPostalCode.Size = new Size(261, 23);
             txtPostalCode.TabIndex = 5;
@@ -159,7 +160,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(76, 311);
+            label6.Location = new Point(83, 324);
             label6.Name = "label6";
             label6.Size = new Size(68, 15);
             label6.TabIndex = 0;
@@ -169,7 +170,7 @@
             // 
             txtCity.BorderStyle = BorderStyle.FixedSingle;
             txtCity.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtCity.Location = new Point(76, 256);
+            txtCity.Location = new Point(83, 269);
             txtCity.Name = "txtCity";
             txtCity.Size = new Size(261, 23);
             txtCity.TabIndex = 4;
@@ -178,7 +179,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(76, 238);
+            label5.Location = new Point(83, 251);
             label5.Name = "label5";
             label5.Size = new Size(31, 15);
             label5.TabIndex = 0;
@@ -188,7 +189,7 @@
             // 
             txtAddress.BorderStyle = BorderStyle.FixedSingle;
             txtAddress.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtAddress.Location = new Point(76, 184);
+            txtAddress.Location = new Point(83, 197);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(261, 23);
             txtAddress.TabIndex = 3;
@@ -197,7 +198,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(76, 166);
+            label4.Location = new Point(83, 179);
             label4.Name = "label4";
             label4.Size = new Size(52, 15);
             label4.TabIndex = 0;
@@ -207,7 +208,7 @@
             // 
             txtLastName.BorderStyle = BorderStyle.FixedSingle;
             txtLastName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtLastName.Location = new Point(76, 114);
+            txtLastName.Location = new Point(83, 127);
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(261, 23);
             txtLastName.TabIndex = 2;
@@ -216,7 +217,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(76, 96);
+            label3.Location = new Point(83, 109);
             label3.Name = "label3";
             label3.Size = new Size(61, 15);
             label3.TabIndex = 0;
@@ -226,7 +227,7 @@
             // 
             txtFirstName.BorderStyle = BorderStyle.FixedSingle;
             txtFirstName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtFirstName.Location = new Point(76, 45);
+            txtFirstName.Location = new Point(83, 58);
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(261, 23);
             txtFirstName.TabIndex = 1;
@@ -235,7 +236,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(76, 27);
+            label2.Location = new Point(83, 40);
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 0;
@@ -245,7 +246,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(537, 790);
+            ClientSize = new Size(537, 812);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point);
@@ -264,7 +265,7 @@
         #endregion
 
         private Panel panel1;
-        private Label label1;
+        private Label label0;
         private Panel panel2;
         private TextBox txtFirstName;
         private Label label2;

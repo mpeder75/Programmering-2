@@ -111,6 +111,7 @@
             dgvPersons.ShowEditingIcon = false;
             dgvPersons.Size = new Size(845, 242);
             dgvPersons.TabIndex = 0;
+            dgvPersons.CellClick += dgvPersons_CellClick;
             // 
             // btnCreatePerson
             // 

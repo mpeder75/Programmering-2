@@ -1,6 +1,7 @@
 ﻿using Session_5___AsyncSql___DA;
 using Session_5___AsyncSql___Models;
 
+
 namespace Session_5___AsyncSql___BL
 {
     public class PersonBL
@@ -12,62 +13,77 @@ namespace Session_5___AsyncSql___BL
             db = new PersonDA();    
         }
 
-
-        //? CRUD - GetAll()
-        // Denne kalder DataAccess GetAll(), og returnere data derfra
-        public List<Person> GetAll()
+        // CRUD - GetAllAsync()
+        public async Task<List<Person>> GetAllAsync()
         {
-            return db.GetAll();
+            return await db.GetAllAsync();
         }
 
-        //? CRUD - GetOne()
-        public Person GetOne(int id)
+        /*// CRUD - GetOneAsync()
+        public Person GetOneAsync(int id)
         {
             if (id > 0 && id < int.MaxValue)
             {
-                return db.GetOne(id);
+                return db.GetOneAsync(id);
             }
             return new Person();
+        }*/
+
+        public async Task<List<Person>> GetOneAsync(string searchTerm)
+        {
+            return await db.GetOneAsync(searchTerm);
         }
 
-        //? CRUD - Create()
-        public bool Create(Person person)
+
+        public async Task<Person> GetOneAsync(int id)
         {
-            if (ValidateModel(person))
+            return await db.GetOneAsync(id);
+        }
+
+
+        // CRUD - CreateAsync()
+        public async Task<bool> CreateAsync(Person person)
+        {
+            if (!string.IsNullOrEmpty(person.FirstName) && !string.IsNullOrEmpty(person.LastName))
             {
-                return db.Create(person);
+                if(person.FirstName.Length < 51 && person.LastName.Length < 51)
+                {
+                    return await db.CreateAsync(person);
+                }
             }
             return false;
         }
 
-
-        //? CRUD - Update()
-        public bool Update(Person person)
+        // CRUD - UpdateAsync()
+        public async Task<bool> UpdateAsync(Person person)
         {
 
             if (ValidateModel(person))
             {
-                return db.Update(person);
+                return await db.UpdateAsync(person);
             }
             return false;
         }
 
-
-        //? CRUD - Delete()
-        public bool Delete(int id)
+        // CRUD - DeleteAsync()
+        public async Task<bool> DeleteAsync(int id)
         {
             if (id > 0 && id < int.MaxValue)
             {
-                db.Delete(id);
+                await db.DeleteAsync(id);
                 return true;
             }
             return false;
         }
+        
+        public int FindNextId() 
+        {
+           return db.FindNextId();
+        }
 
 
-
-        //? Validering - ingen access specifier, så sættes den til private
-        bool ValidateModel(Person person)
+        // Validering - ingen access specifier, så sættes den til private
+        private bool ValidateModel(Person person)
         {
             if (person.FirstName != null && person.LastName != null)
             {
