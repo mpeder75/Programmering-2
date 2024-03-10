@@ -3,13 +3,13 @@ using Session_4___Models;
 
 PersonBL bl = new PersonBL();
 
-Person homer = bl.GetOneAsync(1);
+Person homer = await bl.GetOneAsync(1);
 
 Person abe = new Person() { Id = 10, FirstName = "Abe", LastName = "Simpson" };
 
-bool isCreated = bl.CreateAsync(abe);
+bool isCreated = await bl.CreateAsync(abe);
 
-List<Person> listPersons = bl.GetAll();
+List<Person> listPersons = await bl.GetAllAsync();
 
 Console.WriteLine();
 
