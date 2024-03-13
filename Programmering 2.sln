@@ -115,13 +115,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - AsyncSql - DA",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - AsyncSql - Models", "Session 5 - AsyncSql - Models\Session 5 - AsyncSql - Models.csproj", "{4B014849-F1C3-436E-969E-F5EDAC6453FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - EFC", "Session 6 - EFC", "{043A3925-ABD3-4658-8D1D-B119FD077940}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - EFC - basic", "Session 6 - EFC - basic", "{043A3925-ABD3-4658-8D1D-B119FD077940}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6.1 - ContosoPizza - Persist data til db", "Session 6 - ContosoPizza\Session 6.1 - ContosoPizza - Persist data til db.csproj", "{C61E22C8-7BCA-4C30-92D0-BB1217F9AA03}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - EFC - intro", "Session 6 - EFC - Exercise\Session 6 - EFC - intro.csproj", "{D52018C8-60A9-4CEF-BF85-D0F1D894B912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - EFC - Aflevering", "Session 6 - EFC - Aflevering\Session 6 - EFC - Aflevering.csproj", "{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - EFC - Aflevering", "Session 6 - EFC - Aflevering\Session 6 - EFC - Aflevering.csproj", "{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - EFC udvidet", "Session 7 - EFC udvidet", "{0ADD1200-598D-4F42-ADF0-621113716EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Undervisning", "Undervisning", "{79982494-CD63-4800-975E-1C74A289BDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - EntityModels", "Session 7 - EntityModels\Session 7 - EntityModels.csproj", "{EFC00230-6B60-4AB8-A13B-E6D45C267AFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - DataAccess", "Session 7 - DataAccess\Session 7 - DataAccess.csproj", "{DC621A3E-FCFC-4447-B558-5B18A961DAF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - UI", "Session 7 - UI\Session 7 - UI.csproj", "{A636D982-106E-49BE-A064-4111DEA2966F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - BusinessLogic", "Session 7 - BusinessLogic\Session 7 - BusinessLogic.csproj", "{550D6B61-7B46-470C-B2BC-F62AE8065B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - UiModels", "Session 7 - UiModels\Session 7 - UiModels.csproj", "{290A0A0E-8BFB-4A0F-9444-32612F65FF4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +327,26 @@ Global
 		{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC00230-6B60-4AB8-A13B-E6D45C267AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC00230-6B60-4AB8-A13B-E6D45C267AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC00230-6B60-4AB8-A13B-E6D45C267AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC00230-6B60-4AB8-A13B-E6D45C267AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC621A3E-FCFC-4447-B558-5B18A961DAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC621A3E-FCFC-4447-B558-5B18A961DAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC621A3E-FCFC-4447-B558-5B18A961DAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC621A3E-FCFC-4447-B558-5B18A961DAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A636D982-106E-49BE-A064-4111DEA2966F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636D982-106E-49BE-A064-4111DEA2966F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636D982-106E-49BE-A064-4111DEA2966F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636D982-106E-49BE-A064-4111DEA2966F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550D6B61-7B46-470C-B2BC-F62AE8065B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550D6B61-7B46-470C-B2BC-F62AE8065B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550D6B61-7B46-470C-B2BC-F62AE8065B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550D6B61-7B46-470C-B2BC-F62AE8065B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290A0A0E-8BFB-4A0F-9444-32612F65FF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290A0A0E-8BFB-4A0F-9444-32612F65FF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290A0A0E-8BFB-4A0F-9444-32612F65FF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290A0A0E-8BFB-4A0F-9444-32612F65FF4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -364,6 +398,12 @@ Global
 		{C61E22C8-7BCA-4C30-92D0-BB1217F9AA03} = {043A3925-ABD3-4658-8D1D-B119FD077940}
 		{D52018C8-60A9-4CEF-BF85-D0F1D894B912} = {043A3925-ABD3-4658-8D1D-B119FD077940}
 		{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1} = {043A3925-ABD3-4658-8D1D-B119FD077940}
+		{79982494-CD63-4800-975E-1C74A289BDA4} = {0ADD1200-598D-4F42-ADF0-621113716EB7}
+		{EFC00230-6B60-4AB8-A13B-E6D45C267AFC} = {79982494-CD63-4800-975E-1C74A289BDA4}
+		{DC621A3E-FCFC-4447-B558-5B18A961DAF0} = {79982494-CD63-4800-975E-1C74A289BDA4}
+		{A636D982-106E-49BE-A064-4111DEA2966F} = {79982494-CD63-4800-975E-1C74A289BDA4}
+		{550D6B61-7B46-470C-B2BC-F62AE8065B6D} = {79982494-CD63-4800-975E-1C74A289BDA4}
+		{290A0A0E-8BFB-4A0F-9444-32612F65FF4C} = {79982494-CD63-4800-975E-1C74A289BDA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}
