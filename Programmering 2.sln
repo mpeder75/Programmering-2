@@ -115,7 +115,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - AsyncSql - DA",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - AsyncSql - Models", "Session 5 - AsyncSql - Models\Session 5 - AsyncSql - Models.csproj", "{4B014849-F1C3-436E-969E-F5EDAC6453FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - EFC", "Session 6 - EFC", "{043A3925-ABD3-4658-8D1D-B119FD077940}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - EFC - basic", "Session 6 - EFC - basic", "{043A3925-ABD3-4658-8D1D-B119FD077940}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6.1 - ContosoPizza - Persist data til db", "Session 6 - ContosoPizza\Session 6.1 - ContosoPizza - Persist data til db.csproj", "{C61E22C8-7BCA-4C30-92D0-BB1217F9AA03}"
 EndProject
@@ -124,14 +124,21 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - EFC - Aflevering", "Session 6 - EFC - Aflevering\Session 6 - EFC - Aflevering.csproj", "{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - 74 LINQ extensions", "Session 1 - 74 LINQ extensions\Session 1 - 74 LINQ extensions.csproj", "{16CABF07-62FE-4FB2-AF4D-166BD503210C}"
+<<<<<<< HEAD
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - EFC udvidet", "Session 7 - EFC udvidet", "{0ADD1200-598D-4F42-ADF0-621113716EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Undervisning", "Undervisning", "{79982494-CD63-4800-975E-1C74A289BDA4}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModels", "EntityModels\EntityModels.csproj", "{D4AF51F8-EBFD-4FBD-8278-5D5702F5A9DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - EFC udvidet", "Session 7 - EFC udvidet", "{E7175EB9-4A96-4185-8C2D-04A5F0C44EF8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aflevering", "Aflevering", "{A2988747-6C52-4C7F-8035-D097FD1C06F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStart", "AppStart\AppStart.csproj", "{E58770CC-50D5-4FC0-8BC1-D63C53777BB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Aflevering - Models", "Session 7 - Aflevering - Models\Session 7 - Aflevering - Models.csproj", "{70E4C856-9E06-45DD-B5D9-FDF57F4E58F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Aflevering - AppStart", "Session 7 - Aflevering - AppStart\Session 7 - Aflevering - AppStart.csproj", "{21740915-CF2D-4327-BF6C-09DEAEFB1479}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{7150762C-196F-4901-9299-31D45F63014F}"
+>>>>>>> 6ce130b9942bd6d17e8e4c5e16a983f461f72208
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Aflevering - BL", "Session 7 - Aflevering - BL\Session 7 - Aflevering - BL.csproj", "{B9029E86-6BCB-453F-AF66-8D9EDFC58728}"
 EndProject
@@ -398,12 +405,6 @@ Global
 		{C61E22C8-7BCA-4C30-92D0-BB1217F9AA03} = {043A3925-ABD3-4658-8D1D-B119FD077940}
 		{D52018C8-60A9-4CEF-BF85-D0F1D894B912} = {043A3925-ABD3-4658-8D1D-B119FD077940}
 		{DFF8505D-EEF0-4CE8-8DB6-88D3916CCDF1} = {043A3925-ABD3-4658-8D1D-B119FD077940}
-		{16CABF07-62FE-4FB2-AF4D-166BD503210C} = {9062B1DC-241F-410E-96DE-7B8E1565C4AF}
-		{A2988747-6C52-4C7F-8035-D097FD1C06F8} = {E7175EB9-4A96-4185-8C2D-04A5F0C44EF8}
-		{70E4C856-9E06-45DD-B5D9-FDF57F4E58F0} = {A2988747-6C52-4C7F-8035-D097FD1C06F8}
-		{21740915-CF2D-4327-BF6C-09DEAEFB1479} = {A2988747-6C52-4C7F-8035-D097FD1C06F8}
-		{B9029E86-6BCB-453F-AF66-8D9EDFC58728} = {A2988747-6C52-4C7F-8035-D097FD1C06F8}
-		{7D38650A-627A-45BF-AD5D-08E89AA904CF} = {A2988747-6C52-4C7F-8035-D097FD1C06F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}
