@@ -11,7 +11,7 @@ namespace Session_5___AsyncSql___DA
 
         public PersonDA()
         {
-            connString = ConfigurationManager.ConnectionStrings["home"].ToString();
+            connString = ConfigurationManager.ConnectionStrings["laptop"].ToString();
         }
 
         // CRUD - GetAllAsync
