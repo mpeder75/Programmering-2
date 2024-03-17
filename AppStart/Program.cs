@@ -2,7 +2,7 @@
 using EntityModels;
 using System.Data;
 
-StoreDbContext db = new StoreDbContext();
+StoreDbAccess db = new StoreDbAccess();
 
 Store store = new Store() { Name = "Springfield" };
 

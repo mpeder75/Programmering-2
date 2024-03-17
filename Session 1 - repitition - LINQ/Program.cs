@@ -9,7 +9,7 @@ List<Car> myCars = new List<Car>
 };
 
 
-//? --------- LINQ med Lambda --------- //
+// --------- LINQ med Lambda --------- //
 
 // Find biler af typen "BMW" der har en price på mere end 35000
 var bmws2 = myCars.Where(p => p.Make == "BMW" && p.StickerPrice >= 35000);
@@ -28,7 +28,9 @@ foreach (var car in orderedListDecsc)
     Console.WriteLine($"List sorted by year: {car.Year} {car.Make},{car.Model}");
 }
 
-//! BRUG flere Lambda ssammen
+
+
+// -------------- BRUG flere Lambda sammen ----------------------
 // Find det FØRSTE element i List HVOR Make = "BMW" og sorter desc 
 var firstBMW = myCars.OrderByDescending(p => p.Year).First(p => p.Make == "BMW");
 

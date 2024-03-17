@@ -107,7 +107,6 @@ namespace Session_1___Models_video_2___DateTime.DataAccess
                 if (element.Id > nextId)
                 {
                     nextId = element.Id;
-
                 }
             }
             return nextId + 1;
@@ -123,6 +122,5 @@ namespace Session_1___Models_video_2___DateTime.DataAccess
             contacts.Add(new Contact() { Id = 5, FirstName = "Maggie", LastName = "Simpson" });
         }
     }
-
 }
 

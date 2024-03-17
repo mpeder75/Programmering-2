@@ -1,5 +1,5 @@
 ﻿using DataAccess;
-using EntityModels;
+using UiModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace BusinessLogic
         }
 
 
-        public async Task<List<Store>> GetAsync()
+        public async Task<List<UiModels.Store>> GetAsync()
         {
             List<Store> stores = new List<Store>();
 
@@ -30,5 +30,11 @@ namespace BusinessLogic
             }
             return stores;
         }
+
+        public async Task AddAsync(UiModels.Store storeUi)
+        {
+            // await db.AddAsync(modelConverter.ConvertToStoreEntity(storeUi));
+        }
+
     }
 }

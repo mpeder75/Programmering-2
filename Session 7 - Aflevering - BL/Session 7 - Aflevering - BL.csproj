@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Session_7___Aflevering___BL</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session 7 - Aflevering - DA\Session 7 - Aflevering - DA.csproj" />
+    <ProjectReference Include="..\Session 7 - Aflevering - Models\Session 7 - Aflevering - Models.csproj" />
+  </ItemGroup>
+
+</Project>
