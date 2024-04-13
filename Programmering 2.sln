@@ -135,7 +135,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 9 - JSON", "Session
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - JSON server respons eksempel", "Session 9 - JSON server respons eksempel\Session 9 - JSON server respons eksempel.csproj", "{27613C58-0E95-46EB-8A4E-6D73AD13EE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - JSON serialization & deserialization", "Session 9 - JSON serialization & deserialization\Session 9 - JSON serialization & deserialization.csproj", "{612ABD3D-0005-4D85-B8F7-D360446345E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - JSON serialization & deserialization", "Session 9 - JSON serialization & deserialization\Session 9 - JSON serialization & deserialization.csproj", "{612ABD3D-0005-4D85-B8F7-D360446345E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Undervisning", "Session 9 - Undervisning\Session 9 - Undervisning.csproj", "{3142880C-EFD8-45A9-A9EA-B61886381986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - testTopLevelObject", "Session 9 - testTopLevelObject\Session 9 - testTopLevelObject.csproj", "{2639EE1B-5509-466C-8C64-5D9AB1490905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Aflevering - AppStart", "Session 9 - Aflevering - AppStart\Session 9 - Aflevering - AppStart.csproj", "{DD0C00A4-FD4C-4E3B-95E3-2235CC841687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -347,6 +353,18 @@ Global
 		{612ABD3D-0005-4D85-B8F7-D360446345E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612ABD3D-0005-4D85-B8F7-D360446345E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612ABD3D-0005-4D85-B8F7-D360446345E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3142880C-EFD8-45A9-A9EA-B61886381986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3142880C-EFD8-45A9-A9EA-B61886381986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3142880C-EFD8-45A9-A9EA-B61886381986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3142880C-EFD8-45A9-A9EA-B61886381986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2639EE1B-5509-466C-8C64-5D9AB1490905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2639EE1B-5509-466C-8C64-5D9AB1490905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2639EE1B-5509-466C-8C64-5D9AB1490905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2639EE1B-5509-466C-8C64-5D9AB1490905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0C00A4-FD4C-4E3B-95E3-2235CC841687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0C00A4-FD4C-4E3B-95E3-2235CC841687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0C00A4-FD4C-4E3B-95E3-2235CC841687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0C00A4-FD4C-4E3B-95E3-2235CC841687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -403,6 +421,9 @@ Global
 		{C63344E3-FFC7-4662-869B-C958952929FB} = {CE6961EF-C970-412E-901E-327BE8ECB99B}
 		{27613C58-0E95-46EB-8A4E-6D73AD13EE1C} = {83C58738-7DDA-440C-BE43-7FB3EDE7C2DE}
 		{612ABD3D-0005-4D85-B8F7-D360446345E6} = {83C58738-7DDA-440C-BE43-7FB3EDE7C2DE}
+		{3142880C-EFD8-45A9-A9EA-B61886381986} = {83C58738-7DDA-440C-BE43-7FB3EDE7C2DE}
+		{2639EE1B-5509-466C-8C64-5D9AB1490905} = {83C58738-7DDA-440C-BE43-7FB3EDE7C2DE}
+		{DD0C00A4-FD4C-4E3B-95E3-2235CC841687} = {83C58738-7DDA-440C-BE43-7FB3EDE7C2DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73BB807C-5087-4653-B94F-F9641CC2FDDA}

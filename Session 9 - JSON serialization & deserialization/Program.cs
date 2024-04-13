@@ -40,7 +40,6 @@ namespace Session_9___JSON_serialization___deserialization
                 Console.WriteLine(ex.Message);
             }
 
-
             // 3.Deserialization
             Youtuber deserialized = JsonConvert.DeserializeObject<Youtuber>(json);
 

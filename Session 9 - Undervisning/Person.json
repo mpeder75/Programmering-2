@@ -1,0 +1,35 @@
+// Json filer er opbygget af -> Key : Value pairs
+
+/*
+// Simpelt objekt
+{
+  "mystring": "Hallo World",
+  "mynumber": 110,
+  "mybool": true,
+  "mynull": null,
+  "myarray": []
+}
+*/
+
+/*
+// Mere komplekst objekt
+
+{
+  "Id": 1,
+  "firstName": "Homer",
+  "isOld": true,
+  "brainCapacity": null,
+  "hobbies": [
+    { "reading" : false },
+    { "drinking" : true },
+    { "workOut" :  false }
+  ]
+}
+*/
+
+{
+  "Id": 1,
+  "firstName": "Homer",
+  "lastName" :  "Simpson"
+}
+
